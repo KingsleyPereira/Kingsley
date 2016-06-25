@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	text-align: center;
+	background-image: url("../img/paisagem.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(192,192,192); 
+}
+
+#content {
+	margin-top: 200px;
+	width: 100%;
+}
+
+#content h1 {
+	text-decoration: underline;
+}
+
+#content p {
+	max-width: 500px;
+	margin: 30px auto;
+	text-align: justify;
+}
+
+#content a {
+	border: solid 2px rgb(66,66,66);
+	background: rgb(136,136,136);
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border-radius: 15px; 
+}
